@@ -16,20 +16,21 @@ module.exports = (sequelize) => {
       type: DataTypes.TEXT,
       allowNull: false,
     },
-    Platforms: {
+    platforms: {
       type: DataTypes.ARRAY(DataTypes.STRING),
       allowNull: false,
     },
     image: {
       type: DataTypes.STRING,
       allowNull: false,
+      defaultValue: "iamgen por defecto"
     },
     releaseDate: {
       type: DataTypes.DATE,
     },
-    Rating:{
-      type: DataTypes.ARRAY(DataTypes.STRING)
+    rating:{
+      type: DataTypes.FLOAT
     }
 
-  });
+  },{timestamps: false});
 };

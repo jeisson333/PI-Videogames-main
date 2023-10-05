@@ -37,7 +37,7 @@ const createUsersHandler = async (req, res) => {
         if (!email || !password || !name) return res.status(400).send("incomplete data!")
         const response = await createUserDB(email, password, name);
 
-        res.status(200).json(response);
+        res.status(201).json(response);
     } catch (error) {
         res.status(404).json({ error: error.message })
     }
