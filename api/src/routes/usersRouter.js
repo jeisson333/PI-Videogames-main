@@ -5,10 +5,10 @@ const {usersHandler,detailUsersHandler,createUsersHandler,editUserHandler,delete
 const router = Router();
 
 router.get("/", usersHandler)
-router.get("/:id",detailUsersHandler)
-router.post("/", createUsersHandler)
-router.put("/:id", editUserHandler)
-router.delete("/:id", deleteUserHandler)
+.get("/:id",detailUsersHandler)
+.post("/", createUsersHandler)
+.put("/:id", editUserHandler)
+.delete("/:id", deleteUserHandler)
 
 module.exports = router;
 

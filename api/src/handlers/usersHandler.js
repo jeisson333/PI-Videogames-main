@@ -1,9 +1,4 @@
-const { json } = require('body-parser');
 const { createUserDB, detailUserDB, allUsers, nameUser, updateUser, deleteUser } = require('../controllers/usersControllers')
-
-
-
-
 
 const usersHandler = async (req, res) => {
     try {
