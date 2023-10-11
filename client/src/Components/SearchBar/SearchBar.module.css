@@ -1,0 +1,27 @@
+/* En tu archivo SearchBar.css */
+.searchcontainer {
+    display: flex;
+    align-items: center;
+    margin: 0.5px; /* Agrega un margen alrededor del contenedor */
+    padding: 0.5px; /* Agrega un espacio interno dentro del contenedor */
+    background-color: #ffffff; /* Color de fondo */
+    border: 1px solid #240061; /* Borde alrededor del contenedor */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .searchinput {
+    flex: 1; /* Expande el input para ocupar el espacio disponible */
+    padding: 10px; /* Espaciado interno del input */
+    border: none; /* Sin borde en el input */
+    outline: none; /* Elimina el borde de enfoque al hacer clic en el input */
+  }
+  
+  .searchbutton {
+    background-color: #007bff; /* Color de fondo del botón */
+    
+    border: none; /* Sin borde en el botón */
+    border-radius: 15px; /* Bordes redondeados en el botón */
+    padding: 10px; /* Espaciado interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+  }
+  

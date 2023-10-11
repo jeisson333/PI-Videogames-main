@@ -1,0 +1,58 @@
+/* Home.module.css */
+
+/* Estilos para el contenedor principal */
+
+  
+  /* Estilos para los encabezados */
+  .homeContainer h3,
+  .homeContainer h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los select y botones */
+  /* Home.module.css */
+
+/* Estilos para los select */
+.homeContainer select {
+    font-size: 16px;
+    padding: 10px 16px; /* Alinea el padding con el de los botones */
+    margin-right: 10px;
+    border: none; /* Quita el borde */
+    background-color: #007bff; /* Color de fondo similar al de los botones */
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para los select al hacer hover */
+  .homeContainer select:hover {
+    background-color: #0056b3; /* Color de fondo al hacer hover similar al de los botones */
+  }
+  
+  
+  /* Estilos para la sección de filtros/ordenamiento */
+  .filtersSection {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la sección de paginado */
+  .paginationSection {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los botones de paginado */
+  .paginationSection button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .paginationSection button:hover {
+    background-color: #0056b3;
+  }
+  
+  

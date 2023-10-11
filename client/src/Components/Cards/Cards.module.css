@@ -1,0 +1,10 @@
+/* Cards.module.css */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan automáticamente en filas */
+    justify-content: center; /* Centra las tarjetas horizontalmente en el contenedor */
+  }
+  
+ 
+  
